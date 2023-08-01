@@ -10,6 +10,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "JS", link: "" },
       { text: "Rust", link: "/page/Rust/notes/0_introduce/1" },
+      { text: "关于", link: "" },
     ],
 
     sidebar: [
@@ -38,7 +39,16 @@ export default defineConfig({
                   }, {
                     text: "所有权",
                     link: "/page/Rust/notes/1_elements_of_grammar/3",
-                  },
+                  },{
+                    text: "复合类型",
+                    link: "/page/Rust/notes/1_elements_of_grammar/4",
+                  },{
+                    text: "流程控制",
+                    link: "/page/Rust/notes/1_elements_of_grammar/5",
+                  },{
+                    text: "模式匹配",
+                    link: "/page/Rust/notes/1_elements_of_grammar/6",
+                  }
                 ],
               },
             ],
