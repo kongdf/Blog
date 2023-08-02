@@ -3,12 +3,11 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: "zh-CN",
+  // lang: "zh-CN",
   title: "孔大夫",
   description: "孔大夫写博客的地方",
   // head: [['link', { rel: 'icon', href: '/static/images/logo.png' }]],
   themeConfig: {
-    lastUpdated:true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -30,7 +29,7 @@ export default defineConfig({
         {
           text: "Rust学习笔记",
           link: "",
-         
+
           items: [
             {
               text: "关于Rust",
@@ -66,7 +65,8 @@ export default defineConfig({
                 {
                   text: "模式匹配",
                   link: "/docs/rust/notes/1_elements_of_grammar/6",
-                }, {
+                },
+                {
                   text: "方法 Method",
                   link: "/docs/rust/notes/1_elements_of_grammar/7",
                 },
@@ -80,14 +80,11 @@ export default defineConfig({
         },
       ],
     },
-    sidebarDepth: 4, // 设置显示的目录层级
+    lastUpdated: true,
+    lastUpdatedText: "更新时间",
+    outline: {level: [1,6],label: '目录'},
     socialLinks: [{ icon: "github", link: "https://github.com/kongdf" }],
   },
-  markdown: {
-    anchor: {
-      permalink: true, // 是否在标题旁边添加永久链接
-      permalinkBefore: true, // 在标题前还是标题后添加永久链接
-      permalinkSymbol: '#' // 锚点链接中的符号
-    }
-  }
+ 
+
 });
