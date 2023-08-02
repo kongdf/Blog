@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+// import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,6 +8,7 @@ export default defineConfig({
   description: "孔大夫写博客的地方",
   // head: [['link', { rel: 'icon', href: '/static/images/logo.png' }]],
   themeConfig: {
+    lastUpdated:true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -28,6 +30,7 @@ export default defineConfig({
         {
           text: "Rust学习笔记",
           link: "",
+         
           items: [
             {
               text: "关于Rust",
@@ -38,6 +41,7 @@ export default defineConfig({
             {
               text: "语法基础",
               link: "",
+              collapsed: true,
               items: [
                 {
                   text: "变量绑定与解构",
@@ -62,6 +66,13 @@ export default defineConfig({
                 {
                   text: "模式匹配",
                   link: "/docs/rust/notes/1_elements_of_grammar/6",
+                }, {
+                  text: "方法 Method",
+                  link: "/docs/rust/notes/1_elements_of_grammar/7",
+                },
+                {
+                  text: "泛型和特征",
+                  link: "/docs/rust/notes/1_elements_of_grammar/8",
                 },
               ],
             },
@@ -69,7 +80,14 @@ export default defineConfig({
         },
       ],
     },
-
+    sidebarDepth: 4, // 设置显示的目录层级
     socialLinks: [{ icon: "github", link: "https://github.com/kongdf" }],
   },
+  markdown: {
+    anchor: {
+      permalink: true, // 是否在标题旁边添加永久链接
+      permalinkBefore: true, // 在标题前还是标题后添加永久链接
+      permalinkSymbol: '#' // 锚点链接中的符号
+    }
+  }
 });

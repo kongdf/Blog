@@ -9,6 +9,6 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-  
+    "vuepress-plugin-anchor-right": "0.0.1-beta.18"
   }
 }
