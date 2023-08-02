@@ -9,6 +9,6 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "vite-plugin-vitepress-auto-sidebar": "^1.6.0"
+  
   }
 }
