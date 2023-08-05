@@ -11,7 +11,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "JS", link: "/docs/js/1" },
+      {
+        text: "JS",
+        items: [
+          {
+            text: "冴羽系列学习笔记",
+            link: "/docs/js/notes/huyu/1",
+          },
+        ],
+      },
       {
         text: "Rust",
         items: [
@@ -24,7 +32,29 @@ export default defineConfig({
       { text: "关于", link: "" },
     ],
     sidebar: {
-      "/docs/js/": [{ text: "JS", link: "/docs/js/1" }],
+      "/docs/js/notes/huyu/": [
+        { text: "原型与原型链", link: "/docs/js/notes/huyu/1" },
+        { text: "作用域和动态作用域", link: "/docs/js/notes/huyu/2" },
+        { text: "执行上下文栈", link: "/docs/js/notes/huyu/3" },
+        { text: "变量对象", link: "/docs/js/notes/huyu/4" },
+        { text: "作用域链", link: "/docs/js/notes/huyu/5" },
+        { text: "this", link: "/docs/js/notes/huyu/6" },
+        { text: "执行上下文", link: "/docs/js/notes/huyu/7" },
+        { text: "闭包", link: "/docs/js/notes/huyu/8" },
+        { text: "参数按值传递", link: "/docs/js/notes/huyu/9" },
+        { text: "call和apply的模拟实现", link: "/docs/js/notes/huyu/10" },
+        { text: "bind的模拟实现", link: "/docs/js/notes/huyu/11" },
+        { text: "new的模拟实现", link: "/docs/js/notes/huyu/12" },
+        { text: "类数组对象与arguments", link: "/docs/js/notes/huyu/13" },
+        {
+          text: "创建对象的多种方式以及优缺点",
+          link: "/docs/js/notes/huyu/14",
+        },
+        { text: "继承的多种方式以及优缺点", link: "/docs/js/notes/huyu/15" },
+        { text: "类型转换", link: "/docs/js/notes/huyu/16" },
+        { text: "防抖与节流", link: "/docs/js/notes/huyu/17" },
+      ],
+
       "/docs/rust/notes/": [
         {
           text: "Rust学习笔记",
@@ -82,9 +112,7 @@ export default defineConfig({
     },
     lastUpdated: true,
     lastUpdatedText: "更新时间",
-    outline: {level: [1,6],label: '目录'},
+    outline: { level: [1, 6], label: "目录" },
     socialLinks: [{ icon: "github", link: "https://github.com/kongdf" }],
   },
- 
-
 });
