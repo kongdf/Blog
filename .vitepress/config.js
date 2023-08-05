@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
-// import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right';
-
+ 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // lang: "zh-CN",
