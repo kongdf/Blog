@@ -11,6 +11,18 @@ export default defineConfig({
     lastUpdated: true,
     lastUpdatedText: "更新时间",
     outline: { level: [1, 6], label: "目录" },
-    socialLinks: [{ icon: "github", link: "https://github.com/kongdf" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/kongdf" },
+      // { icon: "zhihu", link: "https://github.com/kongdf" }
+    ],
+    footer: {
+      message:
+        '<a href="https://beian.miit.gov.cn"><span>辽ICP备17012156号-2</span></a>',
+      copyright: `<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21100502000123" ><span><img style="display:inline-block;    position: relative;top: 3px;"   src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png' width='20' height='20'> 辽公网安备 21100502000123号</span></a> `,
+    },
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
   },
 });

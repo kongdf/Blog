@@ -27,5 +27,5 @@ export const nav = [
     ],
   },
   { text: "工具", items: [{ text: "git",  link: "/docs/tool/git/codingAndGithub"}] },
-  { text: "关于", link: "" },
+  // { text: "关于", link: "" },
 ];
