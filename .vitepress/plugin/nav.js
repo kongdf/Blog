@@ -3,7 +3,6 @@ export const nav = [
   {
     text: "前端",
     items: [
-     
       {
         text: "冴羽学习笔记",
         link: "/docs/js/notes/huyu/1",
@@ -11,11 +10,9 @@ export const nav = [
       {
         text: "源码解读",
         link: "/docs/js/sourcecode/index",
-      }, {
+      },
+      {
         text: "随便聊聊",
-        link: "/docs/js/chat/mvvm",
-      }, {
-        text: "",
         link: "/docs/js/chat/mvvm",
       },
     ],
@@ -29,5 +26,6 @@ export const nav = [
       },
     ],
   },
+  { text: "工具", items: [{ text: "git",  link: "/docs/tool/git/codingAndGithub"}] },
   { text: "关于", link: "" },
 ];

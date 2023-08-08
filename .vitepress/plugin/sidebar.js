@@ -92,10 +92,19 @@ const js_sourcecode = [
   },
 ];
 
+const tool_git=[
+   { text: "coding代码提交时推送github",  link: "/docs/tool/git/codingAndGithub"},
+   { text: "删除x天之前的分支",  link: "/docs/tool/git/deleteBranch"}
+]
+
 export const sidebar = {
   "/docs/js/notes/huyu/": js_huyu,
   "/docs/js/chat/": js_chat,
   "/docs/js/sourcecode/": js_sourcecode,
   
   "/docs/rust/notes/": rust_notes,
+  "/docs/tool/git/": tool_git
+
+ 
+
 };
