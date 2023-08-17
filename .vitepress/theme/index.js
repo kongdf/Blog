@@ -12,12 +12,12 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     
-    document.addEventListener("visibilitychange", function () {
-      if (document.visibilityState == "hidden") {
-        document.title = "老铁别走 😭";
-      } else if (document.visibilityState == "visible") {
-        document.title = router.route.data.title || "孔大夫写博客的地方";
-      }
-    });
+    // document.addEventListener("visibilitychange", function () {
+    //   if (document.visibilityState == "hidden") {
+    //     document.title = "老铁别走 😭";
+    //   } else if (document.visibilityState == "visible") {
+    //     document.title = router.route.data.title || "孔大夫写博客的地方";
+    //   }
+    // });
   },
 };
