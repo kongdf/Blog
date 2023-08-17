@@ -46,6 +46,9 @@ const rust_notes = [
           {
             text: "泛型和特征",
             link: "/docs/rust/notes/1_elements_of_grammar/8",
+          }, {
+            text: "集合类型",
+            link: "/docs/rust/notes/1_elements_of_grammar/9",
           },
         ],
       },
