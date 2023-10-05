@@ -80,6 +80,7 @@ const js_huyu = [
 ];
 
 const js_chat = [
+  {text: "聊聊es7-13", link: "/docs/js/chat/es7"},
   { text: "聊聊MVVM", link: "/docs/js/chat/mvvm" },
   { text: "聊聊JS的内存管理", link: "/docs/js/chat/gc" },
   { text: "聊聊http", link: "/docs/js/chat/http" },

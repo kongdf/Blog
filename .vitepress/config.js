@@ -1,7 +1,7 @@
-import { defineConfig } from "vitepress";
+// import { defineConfig } from "vitepress";
 import { sidebar } from "./plugin/sidebar";
 import { nav } from "./plugin/nav";
-export default defineConfig({
+export default {
   title: "孔大夫",
   outDir: "./dist",
 
@@ -25,4 +25,4 @@ export default defineConfig({
       next: "下一页",
     },
   },
-});
+};
