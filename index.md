@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "孔大夫写博客的地方"
+  name: "孔大夫写笔记的地方"
   # text: "记录一些rust/js等"
   tagline: 记录一些学习笔记···
   # image: http://static.kongdf.com/self.jpeg

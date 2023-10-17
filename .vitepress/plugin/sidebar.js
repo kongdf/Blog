@@ -104,6 +104,8 @@ const js_sourcecode = [
 ];
 
 const tool_git = [
+  { text: "常用命令", link: "/docs/tool/git/always" },
+
   {
     text: "coding代码提交时推送github",
     link: "/docs/tool/git/codingAndGithub",
