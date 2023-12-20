@@ -14,6 +14,9 @@ export const nav = [
       {
         text: "随便聊聊",
         link: "/docs/js/chat/mvvm",
+      }, {
+        text: "自测清单",
+        link: "/docs/js/interview/index",
       },
     ],
   },

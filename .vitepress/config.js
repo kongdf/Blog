@@ -1,10 +1,17 @@
 // import { defineConfig } from "vitepress";
 import { sidebar } from "./plugin/sidebar";
 import { nav } from "./plugin/nav";
+import mdItCustomAttrs  from 'markdown-it-custom-attrs'
 export default {
   title: "孔大夫",
   outDir: "./dist",
-
+  head:[
+    [
+        "link",
+        { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
+    ],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
+],
   themeConfig: {
     nav: nav,
     sidebar: sidebar,
@@ -25,4 +32,12 @@ export default {
       next: "下一页",
     },
   },
+  markdown:{
+    config: (md) => {
+        // use more markdown-it plugins!
+        md.use(mdItCustomAttrs, 'image', {
+            'data-fancybox': "gallery"
+        })
+        }
+    }
 };

@@ -80,7 +80,7 @@ const js_huyu = [
 ];
 
 const js_chat = [
-  {text: "聊聊es7-13", link: "/docs/js/chat/es7"},
+  { text: "聊聊es7-13", link: "/docs/js/chat/es7" },
   { text: "聊聊MVVM", link: "/docs/js/chat/mvvm" },
   { text: "聊聊JS的内存管理", link: "/docs/js/chat/gc" },
   { text: "聊聊http", link: "/docs/js/chat/http" },
@@ -88,7 +88,10 @@ const js_chat = [
   { text: "聊聊JS的运行机制", link: "/docs/js/chat/runjs" },
   { text: "聊聊worker", link: "/docs/js/chat/worker" },
 ];
+const js_interview = [
+  { text: "八股文", link: "/docs/js/interview/eightpart" },
 
+];
 const js_sourcecode = [
   {
     text: "vue",
@@ -117,6 +120,10 @@ export const sidebar = {
   "/docs/js/notes/huyu/": js_huyu,
   "/docs/js/chat/": js_chat,
   "/docs/js/sourcecode/": js_sourcecode,
+  "/docs/js/interview/": js_interview,
   "/docs/rust/notes/": rust_notes,
   "/docs/tool/git/": tool_git,
+
+
+
 };
