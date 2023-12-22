@@ -114,6 +114,7 @@ const tool_git = [
     link: "/docs/tool/git/codingAndGithub",
   },
   { text: "删除x天之前的分支", link: "/docs/tool/git/deleteBranch" },
+  { text: "tauri github Action跨平台编译", link: "/docs/tool/git/tauriGithubAction" },
 ];
 
 export const sidebar = {
