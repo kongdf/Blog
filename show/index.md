@@ -68,4 +68,4 @@
 
 项目链接:[https://github.com/kongdf/JDfund](https://github.com/kongdf/JDfund)
 
-项目描述：京东积存金价实时悬浮窗  支持Mac/Windows
+项目描述：京东积存金价实时悬浮窗(支持Mac/Windows)  
