@@ -117,6 +117,24 @@ const tool_git = [
   { text: "tauri github Action跨平台编译", link: "/docs/tool/git/tauriGithubAction" },
 ];
 
+
+const art = [
+  {
+    text: "术",
+    link: "",
+    collapsed: true,
+    items: [
+      {
+        text: "五行基础",
+        link: "/docs/art/1",
+      },{
+        text: "易经基础",
+        link: "/docs/art/2",
+      },
+    ],
+  },
+];
+
 export const sidebar = {
   "/docs/js/notes/huyu/": js_huyu,
   "/docs/js/chat/": js_chat,
@@ -124,6 +142,8 @@ export const sidebar = {
   "/docs/js/interview/": js_interview,
   "/docs/rust/notes/": rust_notes,
   "/docs/tool/git/": tool_git,
+  "/docs/art/": art,
+  
 
 
 

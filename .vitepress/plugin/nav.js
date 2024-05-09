@@ -30,5 +30,6 @@ export const nav = [
     ],
   },
   { text: "工具", items: [{ text: "git",  link: "/docs/tool/git/codingAndGithub"}] },
+  { text: "易学", items: [{ text: "五行",  link: "/docs/art/1"}] },
   // { text: "关于", link: "" },
 ];
