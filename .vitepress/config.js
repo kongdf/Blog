@@ -11,6 +11,15 @@ export default {
         { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
     ],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
+ 
+    ['script', {
+      async: 'async',
+      // 记得替换成你的真正的 src
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4637064136028279',
+      crossorigin: 'anonymous',
+  }],
+
+
 ],
   themeConfig: {
     nav: nav,

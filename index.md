@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "孔大夫写笔记的地方"
   # text: "记录一些rust/js等"
-  tagline: 记录一些学习笔记···
+  # tagline: 记录一些学习笔记···
   # image: http://static.kongdf.com/self.jpeg
   actions:
     - theme: brand
@@ -18,6 +18,7 @@ hero:
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#     link: /show/index
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C

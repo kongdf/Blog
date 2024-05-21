@@ -5,8 +5,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.12",
-    "vue": "^3.3.4"
+    "vitepress": "^1.2.2",
+    "vue": "^3.4.27"
   },
   "dependencies": {
     "markdown-it-custom-attrs": "^1.0.2"
