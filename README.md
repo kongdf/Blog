@@ -1,7 +1,6 @@
-# blog
+# 孔大夫写笔记的地方
 
-之前的博客是用hexo搭的,有点花哨,年纪大了,只想简简单单的写点东西,不那么花哨;
+在线地址:[https://box.kongdf.com](https://box.kongdf.com)
 
 如果对内容有意见或者疑问的,尽管来找我;
-
-该说不说vitepress真的快~
+ 
