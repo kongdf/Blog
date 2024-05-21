@@ -1,23 +1,13 @@
 export const nav = [
   { text: "首页", link: "/" },
+  // { text: "前端笔记", link: "/docs/js/notes/index" },
   {
     text: "前端",
     items: [
       {
-        text: "冴羽学习笔记",
-        link: "/docs/js/notes/huyu/1",
-      },
-      {
-        text: "源码解读",
-        link: "/docs/js/sourcecode/index",
-      },
-      {
-        text: "随便聊聊",
-        link: "/docs/js/chat/mvvm",
-      }, {
-        text: "自测清单",
-        link: "/docs/js/interview/index",
-      },
+        text: "学习笔记",
+        link: "/docs/js/notes/index",
+      }, 
     ],
   },
   {
@@ -29,7 +19,9 @@ export const nav = [
       },
     ],
   },
-  { text: "工具", items: [{ text: "git",  link: "/docs/tool/git/codingAndGithub"}] },
-  { text: "易学", items: [{ text: "五行",  link: "/docs/art/1"}] },
-  // { text: "关于", link: "" },
+  {
+    text: "工具",
+    items: [{ text: "git", link: "/docs/tool/git/codingAndGithub" }],
+  },
+  { text: "术", items: [{ text: "五行", link: "/docs/art/1" }] },
 ];
