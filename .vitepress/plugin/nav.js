@@ -7,6 +7,9 @@ export const nav = [
       {
         text: "学习笔记",
         link: "/docs/js/notes/index",
+      }, {
+        text: "组件库",
+        link: "/docs/js/components/index",
       }, 
     ],
   },

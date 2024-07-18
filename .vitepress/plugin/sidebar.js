@@ -59,41 +59,59 @@ const js__notes = [
 
     items: [{ text: "八股文", link: "/docs/js/notes/interview/eightpart" }],
   },
-  
+];
+const js__components = [
   {
-    text: "技巧与坑",
+    text: "js",
     link: "",
     collapsed: true,
-
     items: [
-       {
-        text: "js",
-        link: "",
-        collapsed: true,
-        items: [
-          {
-            text: "禁止浏览器下载文件",
-            link: "/docs/js/notes/error/js/nodown",
-          },
-          {
-            text: "处理下载txt/图片直接打开问题",
-            link: "/docs/js/notes/error/js/downtxt",
-          },
-          {
-            text: "iframe获取摄像头设备失败",
-            link: "/docs/js/notes/error/js/iframe",
-          },
-        ],
-      },{
-        text: "vue",
-        link: "",
-        collapsed: true,
-        items: [
-          {
-            text: "vue3中keepalive",
-            link: "/docs/js/notes/error/vue/keeplive",
-          },
-        ],
+      {
+        text: "禁止浏览器下载文件",
+        link: "/docs/js/components/js/nodown",
+      },
+      {
+        text: "处理下载txt/图片直接打开问题",
+        link: "/docs/js/components/js/downtxt",
+      },
+      {
+        text: "passive警告",
+        link: "/docs/js/components/js/passive",
+      },
+      {
+        text: "indexDB",
+        link: "/docs/js/components/js/indexDB",
+      },
+      {
+        text: "订阅模式/事件总栈",
+        link: "/docs/js/components/js/Subscribe",
+      },
+    ],
+  },
+  {
+    text: "vue",
+    link: "",
+    collapsed: true,
+    items: [
+      {
+        text: "vue3中keepalive",
+        link: "/docs/js/components/vue/keeplive",
+      },
+      {
+        text: "tagviews",
+        link: "/docs/js/components/vue/tagViews",
+      },
+      {
+        text: "vite的配置模板",
+        link: "/docs/js/components/vue/vite",
+      },
+      {
+        text: "searchLine",
+        link: "/docs/js/components/vue/searchLine",
+      },
+      {
+        text: "eltable二次封装",
+        link: "/docs/js/components/vue/table",
       },
     ],
   },
@@ -189,6 +207,8 @@ const rust_notes = [
 ];
 export const sidebar = {
   "/docs/js/notes": js__notes,
+  "/docs/js/components": js__components,
+
   "/docs/rust/notes/": rust_notes,
   "/docs/tool/git/": tool_git,
   "/docs/art/": art,
