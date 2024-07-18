@@ -1,7 +1,7 @@
 // import { defineConfig } from "vitepress";
 import { sidebar } from "./plugin/sidebar";
 import { nav } from "./plugin/nav";
-import mdItCustomAttrs  from 'markdown-it-custom-attrs'
+// import mdItCustomAttrs  from 'markdown-it-custom-attrs'
 export default {
   title: "孔大夫",
   outDir: "./dist",
@@ -43,9 +43,9 @@ export default {
   markdown:{
     config: (md) => {
         // use more markdown-it plugins!
-        md.use(mdItCustomAttrs, 'image', {
-            'data-fancybox': "gallery"
-        })
+        // md.use(mdItCustomAttrs, 'image', {
+        //     'data-fancybox': "gallery"
+        // })
         }
     }
 };

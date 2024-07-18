@@ -7,10 +7,10 @@ hero:
   # text: "记录一些rust/js等"
   # tagline: 记录一些学习笔记···
   # image: http://static.kongdf.com/self.jpeg
-  actions:
-    - theme: brand
-      text: 作品列表
-      link: /show/index
+  # actions:
+  #   - theme: brand
+  #     text: 作品列表
+  #     link: /show/index
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
