@@ -143,6 +143,9 @@ const art = [
       {
         text: "易经基础",
         link: "/docs/art/2",
+      },  {
+        text: "八字合婚",
+        link: "/docs/art/3",
       },
     ],
   },
